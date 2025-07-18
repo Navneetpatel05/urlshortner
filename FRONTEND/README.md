@@ -1,12 +1,41 @@
-# React + Vite
+# 🔗 URL Shortener App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack **URL shortener** application built with **Node.js**, **Express**, **MongoDB**, and **React (Vite)**. Supports **user authentication** and **optional custom short URLs**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ User registration, login, and logout
+- ✅ JWT-based authentication with HTTP-only cookies
+- ✅ Create short URLs (with optional custom alias)
+- ✅ Redirect to original long URLs
+- ✅ Clean UI built with Tailwind CSS
+- ✅ State management via Redux Toolkit & TanStack Query
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Tech Stack
+
+### Backend:
+- Node.js + Express
+- MongoDB + Mongoose
+- JWT for auth
+- nanoid for short IDs
+
+### Frontend:
+- React (Vite)
+- Tailwind CSS
+- Redux Toolkit
+- TanStack Query & Router
+- Axios
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/url-shortener.git
+cd url-shortener
